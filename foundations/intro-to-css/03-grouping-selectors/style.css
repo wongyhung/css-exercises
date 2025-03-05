@@ -1,0 +1,12 @@
+#me {
+    background-color: black;
+    color: white;
+}
+
+#nome {
+    background-color: yellow;
+}
+
+#me, #nome {
+    font-size: "Helvetica, Times New Roman, sans-serif";
+}
