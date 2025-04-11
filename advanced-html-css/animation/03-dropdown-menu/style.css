@@ -19,6 +19,9 @@
   background-color: rgb(99, 97, 97);
 
   display: none;
+  transform-origin: top;
+  animation-name: dropdownreverse;
+  animation-duration: 0.5s;
 }
 
 ul.dropdown-menu li:hover {
@@ -27,6 +30,17 @@ ul.dropdown-menu li:hover {
 
 .visible {
   display: block;
+  animation-duration: 0.5s;
+  animation-name: dropdown;
+}
+
+@keyframes dropdown {
+  from {
+    transform: scale(100%, 0%);
+  }
+  to {
+    transform: scale(100%, 100%);
+  }
 }
 
 
