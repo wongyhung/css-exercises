@@ -38,6 +38,9 @@ ul.dropdown-menu li:hover {
   from {
     transform: scale(100%, 0%);
   }
+  60% {
+    transform: scale(100%, 120%);
+  }
   to {
     transform: scale(100%, 100%);
   }
